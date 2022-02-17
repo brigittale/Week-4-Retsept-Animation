@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&family=Roboto+Serif:wght@200&display=swap');
+body {
+    background-color: antiquewhite;
+}
+
+.pealkiri {
+    color: rgba(28, 159, 168, 0.801);
+    font-family: 'Roboto Serif', sans-serif;
+    font-size: 2.5rem;
+    position: relative;
+    animation: pealkiri;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    /*animation-iteration-count: infinite;*/
+}
+
+@keyframes pealkiri {
+    0% {top: -250px;}
+    100% {top: 15px;}
+}
+
+.img {
+    text-align: center;
+}
+
+.ingredients {
+    color: darkslategray;
+    border: 1px solid burlywood;
+    width: 50%;
+    margin: 0 auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: relative;
+    text-align: right;
+    animation: textRight;
+    animation-duration: 3s;
+} 
+
+@keyframes textRight {
+    0% {right: -1000px;}
+    85% {right: 50px;}
+    100% {right: 0;}
+}
+
+.ingredients-table {
+    margin: 0 auto;
+}
+
+.juhendid {
+    color: firebrick;
+    border: 1px solid burlywood;
+    width: 70%;
+    margin: 0 auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: relative;
+    animation: juhendid;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes juhendid {
+    0%{left: -1000px;}
+    85%{left: 20px;}
+    100%{left: 0;}
+}
+
+.juhendid ol {
+margin: 0 auto;
+width: 75%;
+}
+
+.footer {
+color: cadetblue;
+font-family: 'Lato', sans-serif;
+ font-size: 1rem;
+text-align: center;
+}
+
+.heading {
+    text-align: center;
+}
